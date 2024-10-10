@@ -23,8 +23,18 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-div {
-  border-radius: 5px;
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+form {
+  border-radius: 10px;
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+
+

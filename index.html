@@ -4,24 +4,25 @@
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" media="screen" href="meyers_and_normalize-form_reset.css" />
-  <link rel="stylesheet" media="screen" href="screen.css" />
+  <link rel="stylesheet" media="screen" href="css.css" />
 </head>
 <body>
 <h3>Using CSS to style an HTML Form</h3>
 
 <div>
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
+    <label for="fname">Full name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
+    <label for="lname">Email</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+    <label for="game">What game are you testing for</label>
+    <select id="game" name="game">
+      <option value="Mario">Mario</option>
+      <option value="KH">Kingdom hearts</option>
+      <option value="IE">Inazuma eleven</option>
+	 <
     </select>
   
     <input type="submit" value="Submit">

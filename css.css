@@ -38,6 +38,9 @@ form {
   border-radius: 1em;
   background-color:#ff6347;
 }
+div{
+	text-align: center;
+}
 
 label {
   display: block;

@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" media="screen" href="css.css" />
   <link rel="stylesheet" media="screen" href="meyers_and_normalize-form_reset.css" />
-  
 </head>
 <body>
-
 <div>
   <form method="get" action="#null">
-  <h3>Using CSS to style an HTML Form</h3>
+  <h3 onclick="changeText(this)">Using CSS to style an HTML Form</h3>
     <label for="fname">Full name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -23,14 +21,16 @@
       <option value="Mario">Mario</option>
       <option value="KH">Kingdom hearts</option>
       <option value="IE">Inazuma eleven</option>
-	 
     </select>
   <p>Tell us about yourself, why did you</p>
   <p>choose the game you pick, and why should we hire you:</p>
   <textarea name="message" rows="10" cols="50"></textarea>
-    <script src="java.js"></script>
-  	<button onclick="myFunction()">Try it</button>
-    <input  type="submit" value="Submit">
+ 
+
+ <input onclick="myFunction()"  type="submit" value="Submit">
   </form>
+<button onclick="myFunction()">Try it</button>
+<script src="java.js"></script>
+  
 </body>
 </html>

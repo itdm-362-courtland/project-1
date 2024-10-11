@@ -1,3 +1,3 @@
-function changeText(id) {
-  id.innerHTML = "Ooops!";
+function myFunction() {
+  alert("I am an alert box!");
 }

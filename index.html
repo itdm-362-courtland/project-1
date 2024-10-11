@@ -10,8 +10,8 @@
 <body>
 
 <div>
-  <form action="/action_page.php">
-  <h3 onclick="changeText(this)">Using CSS to style an HTML Form</h3>
+  <form method="get" action="#null">
+  <h3>Using CSS to style an HTML Form</h3>
     <label for="fname">Full name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -28,9 +28,9 @@
   <p>Tell us about yourself, why did you</p>
   <p>choose the game you pick, and why should we hire you:</p>
   <textarea name="message" rows="10" cols="50"></textarea>
-  
-    <input type="submit" value="Submit">
-	<script src="java.js"></script>
+    <script src="java.js"></script>
+  	<button onclick="myFunction()">Try it</button>
+    <input  type="submit" value="Submit">
   </form>
 </body>
 </html>

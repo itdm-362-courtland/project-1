@@ -25,9 +25,10 @@ input[type=submit]:hover {
 
  
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .h3, input[type=text],  input[type=submit], input[type=email] {
     width: 100%;
     margin-top: 0;
+	text-align: center;
   }
 }
 form {
@@ -37,9 +38,7 @@ form {
   border-radius: 1em;
   background-color:#ff6347;
 }
-body {
-    text-align: center;
-}
+
 label {
   display: block;
 }

@@ -25,7 +25,7 @@ input[type=submit]:hover {
 
  
 @media screen and (max-width: 600px) {
-  div,input[type=text],  input[type=submit], input[type=email] {
+  image,div,input[type=text],  input[type=submit], input[type=email] {
     width: 100%;
     margin-top: 0;
 	text-align: center;
@@ -45,4 +45,6 @@ div{
 label {
   display: block;
 }
-
+#image {
+            display: none;
+        }

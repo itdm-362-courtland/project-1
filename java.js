@@ -1,13 +1,7 @@
-  const form = document.querySelector('form');
-  const input = document.querySelector('input');
+function show() {
 
-  form.addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    if (input.value.trim() === '') {
-      alert('Please fill out the input field!');
-    } else {
-      alert('Thank you');
-      form.submit();
-    }
-  });
+            document.getElementById('image')
+                .style.display = "block";
+            document.getElementById('btnID')
+                .style.display = "none";
+        }

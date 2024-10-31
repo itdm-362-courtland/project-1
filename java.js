@@ -8,21 +8,18 @@ function show() {
 function validateForm() {
 var x = document.forms["gaming"]["message"].value;
   if (x == "" || x == null) {
-    alert("Name must be filled out");
+    alert("Form must be filled out in full");
     return false;
+
   }
-}
-function validateForm2() {
-var x = document.forms["gaming"]["fname"].value;
-  if (x == "" || x == null) {
-    alert("Name must be filled out");
-    return false;
-  }
-}
-function validateForm3() {
 var x = document.forms["gaming"]["email"].value;
   if (x == "" || x == null) {
-    alert("Name must be filled out");
+    alert("Form must be filled out in full");
     return false;
-  }
+}
+var x = document.forms["gaming"]["fname"].value;
+  if (x == "" || x == null) {
+    alert("Form must be filled out");
+    return false;
+}
 }

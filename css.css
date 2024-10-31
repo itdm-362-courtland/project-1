@@ -46,10 +46,15 @@ form {
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
-  background-color:#ff6347;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
 }
 div{
 	text-align: center;
+	
+}
+div{
+background-image: url('xsf-loading.gif');
 }
 
 label {

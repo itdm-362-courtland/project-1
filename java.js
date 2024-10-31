@@ -24,5 +24,5 @@ var x = document.forms["gaming"]["fname"].value;
 }
 }
 function myFunction() {
-   document.getElementById("myDIV").css.backgroundImage = "url(oacmn.gif)";
+   document.getElementById("myDIV").style.backgroundImage = "url(xsf-loading.gif)";
 }

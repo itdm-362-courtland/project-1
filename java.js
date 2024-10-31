@@ -23,3 +23,6 @@ var x = document.forms["gaming"]["fname"].value;
     return false;
 }
 }
+function myFunction() {
+   document.getElementById("myDIV").css.backgroundImage = "url(oacmn.gif)";
+}

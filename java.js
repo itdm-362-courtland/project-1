@@ -23,6 +23,8 @@ var x = document.forms["gaming"]["fname"].value;
     return false;
 }
 }
-function myFunction() {
-   document.getElementById("myDIV").style.backgroundImage = "url(xsf-loading.gif)";
+function myFunction2() {
+  if (form.checkValidity()) {
+    alert("OFF TO ADVENTURE");
+  }
 }
